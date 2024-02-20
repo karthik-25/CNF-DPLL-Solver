@@ -15,15 +15,23 @@ the user input via CLI
 Please run solver.py as follows:
 python3 solver.py [-v] n input_filename
 
+
 -v: toggle verbose. Optional argument
+
 n: number of colors. Required argument.
+
 input_filename: input graph file. Must be a text file with ".txt" extension. Required argument.
 
-Sample Commands:
+**Sample Commands:**
+
 python3 solver.py 4 ./files/us48.txt
+
 python3 solver.py -v 4 ./files/us48.txt
+
 python3 solver.py 3 ./files/triangle.txt
+
 python3 solver.py -v 3 ./files/oz.txt
+
 python3 solver.py -v 2 ./files/tiny.txt
 
 # References
